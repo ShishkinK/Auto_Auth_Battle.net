@@ -33,7 +33,7 @@ def start_battle_net():
 
 def click_setting():
     """  We are looking for an image on the screen and click  """
-    number = 0  # Exception counter
+    number = 0  # Exception counter.
     try:
         buttonlocation = pyautogui.locateOnScreen('11.png')  # find image to Window
         buttonlocation[0]
